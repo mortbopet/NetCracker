@@ -1,7 +1,7 @@
 # NetCracker
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/netcracker_logo.svg" width=1000/>
+    <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/netcracker_logo.png" width=1000/>
 </p>
 
 [![DOI](https://zenodo.org/badge/318524535.svg)](https://zenodo.org/badge/latestdoi/318524535)

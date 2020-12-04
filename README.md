@@ -1,6 +1,8 @@
 # NetCracker
 
-<img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/netcracker_logo.svg"/>|
+<p align="center">
+    <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/netcracker_logo.svg" width=1000/>|
+</p>
 
 NetCracker is an FPGA architecture analysis tool for facilitating the
 investigation of connectivity patterns within as well as in between switchboxes.
@@ -63,7 +65,7 @@ placed in the `output/${time of execution}` folder.
 
 | <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/exarch_names.svg"/>|<img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/exarch_long.svg"/> | <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/exarch_short.svg"/> |
 |:-:|:-:|:-:|  
-| PIP junction names | Internal connections (long ins) | Internal connections (short ins) |
+| PIP junction names | Internal connections (long) | Internal connections (short) |
 
 In `examples/sb_example.json` we provide an example NetCracker file which
 describes a small, made-up switchbox architecture. This file is illustrated in the figures above.
@@ -79,11 +81,11 @@ run:
 
 This will produce a file `adjacency_analysis_x7sALLoc.txt` in the output directory
 of the `SB_X10Y10` switchbox.
-directory. This file contains a matrix detailing the connections between ins-
-and outputs towards a CLB. This file may be further manipulated or plotted - we
+directory. This file contains a matrix detailing the connections between inputs 
+and outputs of a CLB. This file may be further manipulated or plotted - we
 recommend using the online tool
 [Morpheus](https://software.broadinstitute.org/morpheus/) which facilitates easy
-matrix exploration, clustering etc..
+matrix exploration and clustering.
 
 To view which PIP junctions are included under each clustering group of an
 adjacency analysis result, refer to the `Group contents` sections within the
@@ -113,13 +115,13 @@ type, based on the switchbox' adjacency analysis result.
 
 ## File format
 
-NetCracker files are `json` key-value files which realize a directed graph with vertices being PIP junctions and edges being PIPs. For each PIP junction, a list of connected (forward or backward) PIP junctions shall be specified. It is then these connections which are interpreted as the PIPs of the switchbox.
+NetCracker files are `json` key-value files which realize a directed graph with vertices being PIP junctions and edges (connections between PIP junctions) being PIPs.
 
 The `options` field is an arbitrary field which allows for embedding additional information into a NetCracker file, allowing additional vendor-specific analysis.
 
 A PIP Junction may have an empty `forward_pjs` list. A PIP Junction may not have an empty `backward_pjs` list - in other words, a PIP Junction must be driven.
 
-Following is a (simplified) grammar for the NetCracker file format. Whitespace, newline etc. have been left out for brevity due to being a `json` based file format.
+Following is a (simplified) grammar for the NetCracker file format. Whitespace, newline, etc., have been left out for brevity.
 
 ```txt
 <NetCracker file> ::= "{" <switchboxes> "}"
@@ -164,10 +166,10 @@ Referencing the FanIOAnalysis class, we have the following:
 class FanIOAnalysis(AnalysisPass):
     def __init__(self):
         super().__init__(
-            description="Determine Fan-in/Fan-out for the PIP junctions of a switchbox",
-            key="fanio",
-            depends=[INOUT_ANALYSIS_RES],
-            produces=[]
+            description = "Determine Fan-in/Fan-out for the PIP junctions of a switchbox",
+            key = "fanio",
+            depends = [INOUT_ANALYSIS_RES],
+            produces = []
         )
    ...
 ```

@@ -9,109 +9,123 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9.8301992mm"
+   height="3.9600611mm"
+   viewBox="0 0 34.831415 14.031712"
+   id="svg4440"
    version="1.1"
-   id="svg29"
-   xml:space="preserve"
-   width="253.06462"
-   height="85.839973"
-   viewBox="0 0 253.06462 85.839973"
-   sodipodi:docname="logo.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
-     id="metadata35"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-     id="defs33"><clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath45"><path
-         d="M 120.83333,120.83333 H 2433.3333 V 3182.5833 H 120.83333 Z"
-         id="path43"
-         inkscape:connector-curvature="0"
-         style="clip-rule:evenodd" /></clipPath><clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath57"><path
-         d="m 120.83333,120.83333 h 892.62497 v 268.25 H 120.83333 Z"
-         id="path55"
-         inkscape:connector-curvature="0"
-         style="clip-rule:evenodd" /></clipPath></defs><sodipodi:namedview
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="NetCracker logo.svg">
+  <defs
+     id="defs4442" />
+  <sodipodi:namedview
+     id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1856"
-     inkscape:window-height="1016"
-     id="namedview31"
+     inkscape:zoom="11.2"
+     inkscape:cx="-2.7265215"
+     inkscape:cy="-1.5030516"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.79259995"
-     inkscape:cx="369.96672"
-     inkscape:cy="-404.13334"
-     inkscape:window-x="64"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g37" /><g
-     id="g37"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="158"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4445">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="logo"
-     transform="matrix(0.31999998,0,0,0.31999998,-38.673262,-38.666686)"><g
-       id="g51"><g
-         id="g53"
-         clip-path="url(#clipPath57)"><g
-           id="g59"
-           transform="matrix(8.7467108,0,0,8.7561407,-362.20319,-767.61835)"><path
-             d="m 55.227489,117.23208 15.031048,2.2e-4 9.312004,-8.25441 19.752839,4.1e-4 7.31695,4.127 h 19.60842 l 7.21832,4.12682 12.17442,3.6e-4"
-             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             id="path61"
-             inkscape:connector-curvature="0" /></g><g
-           id="g63"
-           transform="matrix(2.3143737,0,0,2.316869,-362.20319,-767.61835)"><text
-             transform="translate(226.21581,497.73718)"
-             style="font-variant:normal;font-weight:normal;font-size:66.66000366px;font-family:'Liberation Serif';-inkscape-font-specification:LiberationSerif;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text67"><tspan
-               x="0 48.137009 77.722229 94.386292 138.84549 161.04254 190.62776 220.21298 253.54111 283.12634"
-               y="0"
-               sodipodi:role="line"
-               id="tspan65">Ne Cracker</tspan></text>
-</g><g
-           id="g69"
-           transform="matrix(5.9456801,0,0,5.9520912,1658.4473,89.137344)"><path
-             d="m -221.28166,18.836845 h 7.6172 v 18.727608 h -7.6172 z"
+     id="layer1"
+     transform="translate(-1236.87,-465.34635)">
+    <g
+       id="g4493"
+       transform="matrix(1.375,0,0,-1.375,1054.9918,569.22055)">
+      <g
+         transform="translate(0,1.6)"
+         id="g4966">
+        <g
+           id="g5842"
+           transform="matrix(0.74999996,0,0,0.75,70.945361,4.3449032)">
+          <path
+             d="m 92.626695,88.720667 2.268655,0 0,-5.654039 -2.268655,0 0,5.654039 z"
              style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path71"
-             inkscape:connector-curvature="0" /><path
-             d="m -223.386,20.290806 h 2.00452 v 13.219193 h -2.00452 z"
+             id="path74"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 91.999953,88.281703 0.597012,0 0,-3.990998 -0.597012,0 0,3.990998 z"
              style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path73"
-             inkscape:connector-curvature="0" /><path
-             d="m -219.843,37.364002 h 4.74 l -1.0003,13.029392 h -2.73952 z"
+             id="path76"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 93.055176,83.127146 1.411729,0 -0.297922,-3.933695 -0.81592,0 -0.297887,3.933695 z"
              style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path75"
-             inkscape:connector-curvature="0" /><path
-             d="m -219.86629,13.207008 h 4.78645 v 5.677084 h -4.78645 z"
+             id="path78"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 93.048239,90.420367 1.425564,0 0,-1.713964 -1.425564,0 0,1.713964 z"
              style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path77"
-             inkscape:connector-curvature="0" /><path
-             d="m -213.564,20.290806 h 2.00452 v 13.219193 h -2.00452 z"
+             id="path80"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 94.92527,88.281703 0.597013,0 0,-3.990998 -0.597013,0 0,3.990998 z"
              style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path79"
-             inkscape:connector-curvature="0" /><path
-             d="m -221.2014,5.3251967 h 7.45669 l -1.5736,9.2023793 h -4.30967 z"
+             id="path82"
+             inkscape:connector-curvature="0" />
+          <path
+             d="m 92.650599,92.79996 2.22085,0 -0.46867,-2.778284 -1.283563,0 -0.468617,2.778284 z"
              style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path81"
-             inkscape:connector-curvature="0" /></g><g
-           id="g83"
-           transform="matrix(8.7467108,0,0,8.7561407,-362.20319,-767.61835)"><path
-             d="m 61.63681,117.23265 v 2.30457 l -6.409519,3.99987 v -6.30443 z"
-             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path85"
-             inkscape:connector-curvature="0" /><path
-             d="m 61.63681,117.23265 v -2.30457 l -6.409519,-3.99986 v 6.30442 z"
-             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path87"
-             inkscape:connector-curvature="0" /></g></g></g></g></svg>
+             id="path84"
+             inkscape:connector-curvature="0" />
+        </g>
+        <path
+           inkscape:connector-curvature="0"
+           id="path64"
+           style="fill:none;stroke:#000000;stroke-width:0.40102854;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 132.2751,69.176104 4.21135,-7.3e-5 2.609,2.749584 5.53428,-1.36e-4 2.05004,-1.374724 5.49382,0 2.0224,-1.374665 3.41099,-1.19e-4" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path88"
+           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 134.07084,69.175914 0,-0.767663 -1.79579,-1.332377 0,2.100037 1.79579,3e-6 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path90"
+           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 134.07084,69.175914 0,0.767663 -1.79579,1.332373 0,-2.100032 1.79579,-4e-6 z" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="135.19073"
+           y="-63.858295"
+           id="text4959"
+           sodipodi:linespacing="125%"
+           transform="scale(1,-1)"><tspan
+             sodipodi:role="line"
+             id="tspan4961"
+             x="135.19073"
+             y="-63.858295"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Ne Cracker</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

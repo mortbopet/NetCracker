@@ -1,6 +1,6 @@
 # NetCracker
 
-![](static/netcracker_logo.png)
+<img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/netcracker_logo.svg"/>|
 
 NetCracker is an FPGA architecture analysis tool for facilitating the
 investigation of connectivity patterns within as well as in between switchboxes.
@@ -29,7 +29,7 @@ atomic as possible.
 - [NetCracker](#netcracker)
   - [Requirements](#requirements)
   - [Usage](#usage)
-    - [Example architecture](#example-architecture)
+    - [Example Switchbox](#example-switchbox)
     - [Example 1: Adjacency analysis (internal)](#example-1-adjacency-analysis-internal)
     - [Example 2: Switchbox diversity](#example-2-switchbox-diversity)
   - [File format](#file-format)
@@ -59,14 +59,14 @@ vendor, provide the string `none` instead.
 All logs as well as pass artifacts for a given execution of NetCracker will be
 placed in the `output/${time of execution}` folder.
 
-### Example architecture
+### Example Switchbox
 
 | <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/exarch_names.svg"/>|<img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/exarch_long.svg"/> | <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/exarch_short.svg"/> |
 |:-:|:-:|:-:|  
 | PIP junction names | Internal connections (long ins) | Internal connections (short ins) |
 
 In `examples/sb_example.json` we provide an example NetCracker file which
-describes a small, made-up switchbox architecture. This example is illustrated in the figures above.
+describes a small, made-up switchbox architecture. This file is illustrated in the figures above.
 
 ### Example 1: Adjacency analysis (internal)
 

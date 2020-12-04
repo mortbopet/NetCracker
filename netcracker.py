@@ -10,7 +10,6 @@ from src.logger import *
 import json
 
 from src.vendor.Xilinx.S7.x7s import *
-from src.vendor.Xilinx.UltraScale.UltraScale import *
 from src.vendor.NoVendor.novendor import *
 
 if __name__ == "__main__":
@@ -18,7 +17,6 @@ if __name__ == "__main__":
 
     # Initialize vendors to register their command line arguments
     xilVendor = Xilinx7SeriesVendor()
-    usVendor = XilinxUltraScaleVendor()
     noVendor = NoVendor()
 
     parser = argparse.ArgumentParser()
@@ -31,7 +29,6 @@ if __name__ == "__main__":
     vendorSubparsers = parser.add_subparsers(dest='Device vendor')
     vendorSubparsers.required = True
     addXilinxArguments(vendorSubparsers)
-    addUltraScaleArguments(vendorSubparsers)
     addNoVendorArguments(vendorSubparsers)
 
 
@@ -44,8 +41,6 @@ if __name__ == "__main__":
     # Setup vendor object
     if vars(args)['Device vendor'] == 'x7s':
         vendor = xilVendor
-    elif vars(args)['Device vendor'] == 'xus':
-        vendor = usVendor
     else:
         vendor = noVendor
 

@@ -61,7 +61,7 @@ placed in the `output/${time of execution}` folder.
 
 ### Example architecture
 
-| <img src="https://github.com/mortbopet/NetCracker/blob/master/static/icons/exarch_names.svg"/>|<img src="https://github.com/mortbopet/NetCracker/blob/master/static/icons/exarch_long.svg"/> | <img src="https://github.com/mortbopet/NetCracker/blob/master/static/icons/exarch_short.svg"/> |
+| <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/exarch_names.svg"/>|<img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/exarch_long.svg"/> | <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/exarch_short.svg"/> |
 |:-:|:-:|:-:|  
 | PIP junction names | Internal connections (long ins) | Internal connections (short ins) |
 

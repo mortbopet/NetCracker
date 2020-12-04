@@ -4,6 +4,8 @@
     <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/netcracker_logo.svg" width=1000/>
 </p>
 
+[![DOI](https://zenodo.org/badge/318524535.svg)](https://zenodo.org/badge/latestdoi/318524535)
+
 NetCracker is an FPGA architecture analysis tool for facilitating the
 investigation of connectivity patterns within as well as in between switchboxes.
 NetCracker has been used to generate the information which served as the basis

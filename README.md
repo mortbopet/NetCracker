@@ -1,7 +1,7 @@
 # NetCracker
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/netcracker_logo.svg" width=1000/>|
+    <img src="https://raw.githubusercontent.com/mortbopet/NetCracker/main/static/netcracker_logo.svg" width=1000/>
 </p>
 
 NetCracker is an FPGA architecture analysis tool for facilitating the

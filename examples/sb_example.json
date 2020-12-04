@@ -1,0 +1,118 @@
+{"SB_X10Y10" : {
+    "name": "SB_X10Y10",
+    "x": 10,
+    "y": 10,
+    "pip_junctions": [
+        {
+            "name": "N1O",
+            "forward_pjs": [{"name": "S1I", "x": 10, "y": 11}],
+            "backwards_pjs": [
+                {"name": "W2I", "x": 10, "y": 10},
+                {"name": "S1I", "x": 10, "y": 10}
+            ]
+        },
+        {
+            "name": "E1O",
+            "forward_pjs": [{"name": "W1I", "x": 11, "y": 10}],
+            "backwards_pjs": [
+                {"name": "N2I", "x": 10, "y": 10},
+                {"name": "W1I", "x": 10, "y": 10}
+            ]
+        },
+        {
+            "name": "S1O",
+            "forward_pjs": [{"name": "N1I", "x": 10, "y": 9}],
+            "backwards_pjs": [
+                {"name": "E2I", "x": 10, "y": 10},
+                {"name": "N1I", "x": 10, "y": 10}
+            ]
+        },
+        {
+            "name": "W1O",
+            "forward_pjs": [{"name": "E1I", "x": 9, "y": 10}],
+            "backwards_pjs": [
+                {"name": "S2I", "x": 10, "y": 10},
+                {"name": "E1I", "x": 10, "y": 10}
+            ]
+        },
+
+
+        {
+            "name": "N2O",
+            "forward_pjs": [{"name": "S2I", "x": 10, "y": 12}],
+            "backwards_pjs": [{"name": "S2I", "x": 10, "y": 10}]
+        },
+        {
+            "name": "E2O",
+            "forward_pjs": [{"name": "W2I", "x": 12, "y": 10}],
+            "backwards_pjs": [{"name": "W2I", "x": 10, "y": 10}]
+        },
+        {
+            "name": "S2O",
+            "forward_pjs": [{"name": "N2I", "x": 10, "y": 8}],
+            "backwards_pjs": [{"name": "N2I", "x": 10, "y": 10}]
+        },
+        {
+            "name": "W2O",
+            "forward_pjs": [{"name": "E2I", "x": 8, "y": 10}],
+            "backwards_pjs": [{"name": "E2I", "x": 10, "y": 10}]
+        },
+
+
+        {
+            "name": "N1I",
+            "forward_pjs": [{"name": "S1O", "x": 10, "y": 10}],
+            "backwards_pjs": [{"name": "S1O", "x": 10, "y": 11}]    
+        },
+        {
+            "name": "E1I",
+            "forward_pjs": [{"name": "W1O", "x": 10, "y": 10}],
+            "backwards_pjs": [{"name": "W1O", "x": 11, "y": 10}]    
+        },
+        {
+            "name": "S1I",
+            "forward_pjs": [{"name": "N1O", "x": 10, "y": 10}],
+            "backwards_pjs": [{"name": "N1O", "x": 10, "y": 9}]    
+        },
+        {
+            "name": "W1I",
+            "forward_pjs": [{"name": "E1O", "x": 10, "y": 10}],
+            "backwards_pjs": [{"name": "E1O", "x": 9, "y": 10}]    
+        },
+
+
+        {
+            "name": "N2I",
+            "forward_pjs": [
+                {"name": "E1O", "x": 10, "y": 10},
+                {"name": "S2O", "x": 10, "y": 10}
+            ],
+            "backwards_pjs": [{"name": "S2O", "x": 10, "y": 12}]    
+        },
+        {
+            "name": "E2I",
+            "forward_pjs": [
+                {"name": "S1O", "x": 10, "y": 10},
+                {"name": "W2O", "x": 10, "y": 10}
+            ],
+            "backwards_pjs": [{"name": "W2O", "x": 12, "y": 10}]    
+        },
+        {
+            "name": "S2I",
+            "forward_pjs": [
+                {"name": "W1O", "x": 10, "y": 10},
+                {"name": "N2O", "x": 10, "y": 10}
+            ],
+            "backwards_pjs": [{"name": "N2O", "x": 10, "y": 8}]    
+        },
+        {
+            "name": "W2I",
+            "forward_pjs": [
+                {"name": "N1O", "x": 10, "y": 10},
+                {"name": "E2O", "x": 10, "y": 10}
+            ],
+            "backwards_pjs": [{"name": "E2O", "x": 8, "y": 10}]    
+        }
+    ]
+}
+}
